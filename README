@@ -1,1 +1,5 @@
 課題3 Bird
+
+だいたい普通の実装
+Brid::tweetsがuser timeline
+TweetがBird::followersに自分をおくる
