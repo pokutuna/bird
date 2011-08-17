@@ -1,9 +1,10 @@
 use strict;
 use warnings;
 
-BEGIN {
-    unshift @INC, "lib"; #なんかhackっぽい、こうじゃない普通な方法ってなんでしょうか
-}
+# BEGIN {
+#     unshift @INC, "lib"; #なんかhackっぽい、こうじゃない普通な方法ってなんでしょうか
+# }  use lib 'path' を使ったほうがシンプルだ
+use lib 'lib';
 
 use Bird;
 
